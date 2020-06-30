@@ -1,7 +1,7 @@
 # InstaPhisher - 2020
 
 __author__ Exilas <br/>
-__version__ 2.1
+__version__ 2.2
 
 # Disclamer
 
@@ -25,7 +25,7 @@ You can also obtain SSL certificates with Let's Encrypt to benefit from an https
 The InstaPhisher file is only used to notify you when a new password is captured. It is therefore not necessary to open it, but recommended.
 
 
-# Install
+# Installation
 
 ## Linux
 
@@ -40,7 +40,7 @@ service apache2 start
 python InstaPhisher.py
 ```
 
-## Windwos
+## Windows
 
 ### Apache and Php download and configuration
 
