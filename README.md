@@ -152,4 +152,4 @@ C:\Apache24\htdocs\InstaPhisher.py
 
 # Screenshot
 
-![Alt text](screenshot/instaPhisher.jpg?raw=true "Screenshot")
+![Alt text](screenshot/instaPhisher.png?raw=true "Screenshot")
