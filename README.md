@@ -3,11 +3,11 @@
 ![Alt text](screenshot/terminal.png?raw=true "Screenshot")
 
 __author__ Exilas <br/>
-__version__ 2.2
+__version__ 2.3
 
 # Disclamer
 
-I am in no way responsible for illegal uses. For educational use only.
+I am in no way responsible for illegal uses.
 
 
 # Information
