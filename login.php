@@ -1,8 +1,3 @@
-# ----------------------#
-# __Author__  Exilas    #
-# __Version__ 2.2       #
-# ----------------------#
-
 <?php
 
 	date_default_timezone_set('Europe/Paris');
