@@ -63,8 +63,8 @@ def main():
 		try:
 			time.sleep(1)
 		except KeyboardInterrupt:
-			print('\n[i] InstaPhisher stoped')
-			sys.exit()
+			print('[i] InstaPhisher stoped\n')
+			exit()
 		else:
 			pass
 		
