@@ -146,7 +146,7 @@ python InstaPhisher.py  #Not required but recommended
 With admin cmd
 ```
 cd C:\Apache24\bin
-httpd -k start          #"httpd -k stop" for stop
+httpd.exe -k start          #"httpd.exe -k stop" for stop
 C:\Apache24\htdocs\InstaPhisher.py
 ```
 
