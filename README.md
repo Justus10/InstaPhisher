@@ -62,15 +62,6 @@ service apache2 start   #"service apache2 stop" for stop
 python InstaPhisher.py  #Not required but recommended
 ```
 
-### Windows:
-
-With admin cmd
-```
-cd C:\Apache24\bin
-httpd.exe -k start          #"httpd.exe -k stop" for stop
-C:\Apache24\htdocs\InstaPhisher.py
-```
-
 # Screenshot
 
 ![Alt text](screenshot/instaPhisher.png?raw=true "Screenshot")
